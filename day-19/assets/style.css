@@ -1,0 +1,32 @@
+.info li {
+    display: inline-block;
+    color: white;
+    margin: 10px;
+
+}
+
+.text-orange,
+.text-orange:hover {
+    color: #ff4800;
+}
+
+.bg-orange {
+    background-color: #ff4800;
+}
+
+.my-nav li:hover {
+    background-color: #ff4800;
+    color: white;
+}
+.btn-orange{
+    background-color: #ff4800;
+    color: white;
+}
+
+.my-nav li:hover .dropdown-menu{
+    display: block;
+}
+
+.br {
+    border: 2px solid red;
+}

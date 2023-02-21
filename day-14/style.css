@@ -1,0 +1,19 @@
+.my-text-success{
+    color: red;
+}
+.h22{color: red !important;}
+
+[class*="col-"]{
+    border: 1px solid black;
+}
+
+
+.h-50{height: 50px !important;}
+.h-100{height: 100px !important;}
+.h-150{height: 150px !important;}
+.h-200{height: 200px !important;}
+.h-300{height: 300px !important;}
+.h-350{height: 350px !important;}
+
+
+

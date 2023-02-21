@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Average Calculator</title>
+    </head>
+    <body>
+        <h1>Average Calculator</h1>
+        <form>
+            <label for="numbers">Enter numbers separated by commas:</label>
+            <input type="text" id="numbers" name="numbers">
+            <br>
+            <button type="button" onclick="calculateAverage()">Calculate</button>
+        </form>
+        <br>
+        <p id="result"></p>
+        <script>
+            function calculateAverage(){
+                var numbers = document.getElementById("numbers").value;
+                var numarray = numbers.split(",");
+                var sum = 0;
+                for(var i=0; i<numarray.length; i++){
+                    sum +=parseFloat(numarray[i]);
+                }
+                var Average = sum / numarray.length;
+                document.getElementById("result").innerHTML = "The average is: " +Average;
+            }
+        </script>
+    </body>
+</html>

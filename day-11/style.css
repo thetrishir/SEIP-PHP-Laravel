@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+}
+
+
+.f-green{
+    background-color: green;
+    width: 250px;
+    height: 140px;
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+.f-green:hover{
+    width: 270px;
+    height: 150px;
+    background-color: red;
+    transition: background-color 1s, height 2s, width 2s;
+}
+.f-red{
+    background-color: red;
+    margin: 35px 0 0 100px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    border-radius: 40px;
+    z-index: 1;
+}
+.f-bash{
+    background-color: black;
+    width: 10px;
+    height: 300px;
+    position: relative;
+    border-radius: 5px 5px 0px 0px;
+}
+.f-mati1{
+    background-color: rgb(192, 128, 33);
+    width: 30px;
+    height: 10px;
+    position: relative;
+    left: -10px;
+    top: 300px;
+}
+.f-mati2{
+    background-color: rgb(192, 128, 33);
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 310px;
+    left: -20px;
+}

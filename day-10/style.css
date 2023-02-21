@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+[class*='col-']{
+    float:left;
+    border: 1px solid black;
+}
+
+.h-50{height: 50px;}
+.h-100{height: 100px;}
+.h-150{height: 150px;}
+.h-200{height: 200px;}
+.h-300{height: 300px;}
+.h-350{height: 350px;}
+
+.row{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+.row::after{
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+.h-50 ul{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.h-50 ul li{
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+.h-50 ul li a{
+    color: white;
+    align-items: right;
+    text-decoration: solid;
+}
+
+@media only screen and (min-width: 700px) and (max-width:1000px){
+.col-sm-1{width: 8.33%;}
+.col-sm-2{width: 16.66%;}
+.col-sm-3{width: 25%;}
+.col-sm-4{width: 33.33%;}
+.col-sm-5{width: 41.66%;}
+.col-sm-6{width: 50%;}
+.col-sm-7{width: 58.33%;}
+.col-sm-8{width: 66.66%;}
+.col-sm-9{width: 75%;}
+.col-sm-10{width: 83.33%;}
+.col-sm-11{width: 91.66%;}
+.col-sm-12{width: 100%;}
+[class*='col-']{
+    float:left;
+    border: 1px solid red;
+    }
+}
+
+.f-green{
+    background-color: green;
+    width: 250px;
+    height: 140px;
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+.f-green:hover{
+    width: 260px;
+    height: 145px;
+    background-color: red;
+    transition: background-color 1s, height 2s, width 2s;
+}
+.f-red{
+    background-color: red;
+    margin: 35px 0 0 100px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    border-radius: 40px;
+    z-index: 1;
+}
+.f-bash{
+    background-color: black;
+    width: 10px;
+    height: 300px;
+    position: relative;
+    border-radius: 5px 5px 0px 0px;
+}
+.f-mati1{
+    background-color: rgb(192, 128, 33);
+    width: 30px;
+    height: 10px;
+    position: relative;
+    left: -10px;
+    top: 300px;
+}
+.f-mati2{
+    background-color: rgb(192, 128, 33);
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 310px;
+    left: -20px;
+}

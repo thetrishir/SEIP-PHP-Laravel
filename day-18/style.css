@@ -1,0 +1,22 @@
+[class*="col-"]{
+    border: 1px solid black;
+}
+.bb{
+    border: 2px solid;
+}
+.bg{
+    border: 2px solid green;
+}
+.br{
+    border: 2px solid red;
+}
+
+.h-50{height: 50px !important;}
+.h-100{height: 100px !important;}
+.h-150{height: 150px !important;}
+.h-200{height: 200px !important;}
+.h-300{height: 300px !important;}
+.h-350{height: 350px !important;}
+
+
+

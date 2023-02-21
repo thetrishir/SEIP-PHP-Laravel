@@ -1,0 +1,13 @@
+{
+    "name": "day-23-composer/day-23-composer",
+    "description" : "our first php project using composer",
+    "type" : "project",
+    "keywords" : [],
+    "require" : {},
+    "require-dev" : {},
+    "autoload" : {
+        "psr-4" : {
+            "App\\": "app//"
+        }
+    }
+}

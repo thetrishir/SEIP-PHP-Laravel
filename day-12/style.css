@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    margin: 100px 0 0 100px;
+    /* transition: all 3s steps(100, start);
+    transition-timing-function: ease-in; */
+}
+.box:hover{
+    cursor: pointer;
+    animation: color-change 5s 2;
+    /* transform: matrix(1, 2, 3, 4, 5, 6);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: perspective(100px);
+    transform: rotate(2turn);
+    transform: rotate3d(1, 2, 3, 45deg);
+    transform: translate(12px, 500%);
+    transform: translate3d(120px, 100%, 50em);
+    transform: translateX(20em);
+    transform: translateY(3in);
+    transform: translateZ(2px);
+    transform: scale(.5, 2);
+    transform: scale3d(1.5, -2, 0.3);
+    transform: scaleY(2);
+    transform: skew(30deg, 45deg);
+    transform: skewY(1.07rad); */
+}
+
+@keyframes color-change {
+    0%{background-color: red;}
+    14%{background-color: orange;}
+    28%{background-color: yellow;}
+    42%{ background-color: green;}
+    56%{background-color: blue;}
+    85%{background-color: indigo;}
+    100%{background-color: violet;}
+}
+
+.btn{
+    border: none;
+    padding: 5px;
+    background-color: rgb(0, 174, 255);
+    margin: 100px 0 0 100px;
+    border-radius: 10px;
+}
